@@ -7,7 +7,7 @@ public class App {
       int[] testValues = {5, 10, 15, 20, 25, 30, 35, 40, 45, 50};
       int trials = 10;
 
-      System.out.println("| Benchmark Results|");
+      System.out.println("|Benchmark Results|");
 
       for (int n : testValues) {
         long totalNaive = 0;
