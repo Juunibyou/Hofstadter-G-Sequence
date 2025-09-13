@@ -9,7 +9,7 @@ public class Hofstadter {
     if (n == 0){
       return 0;
     } else {
-      return n - gNaive(n - 1);
+      return n - gNaive(gNaive(n - 1));
     }
   }
 
